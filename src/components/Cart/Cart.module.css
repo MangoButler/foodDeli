@@ -18,8 +18,11 @@
   .actions {
     text-align: right;
   }
+  .errorBox p{
+    color: red;
+  }
   
-  .actions button {
+  .actions button, .errorBox button {
     font: inherit;
     cursor: pointer;
     background-color: transparent;
